@@ -11,9 +11,9 @@ namespace AR_54.Common.Model
         //Constructor with identity and Starting HP (which sets maxHP too)
         public Unit(string ident, int maxHP)
         {
-            Identifier = ident;
-            MaxHP = maxHP;
-            CurrentHP = maxHP;
+            Identifier = ident
+            MaxHP = maxHP
+            CurrentHP = maxHP
         }
 
         string Identifier { get; set; }
